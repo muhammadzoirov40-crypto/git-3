@@ -59,11 +59,68 @@ body {
     right: 100px;
 }
 
+.ceyom {
+    width: 100%;
+    margin-top: 60px;
+}
 
+.tel {
+    display: none;
+}
+.ha1{
+    margin-top: 30px;
+}
+.ce3{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.ce31{
+    padding: 15px;
+    border-radius: 10px;
+     border: 1px solid wheat;
+}
+.ce31 p,.ce31 h3{
+    margin: 10px 0px;
+}
+.ce31button button
+{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid wheat;
+}
+.b1{
+    background-color: bisque;
+}
+.b2{
+    background-color: rgba(255, 228, 196, 0);
+}
+.cep2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cep1{
+    padding: 15px;
+    width: 21%;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid wheat;
+    
+}
+.cep{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
 
 @media(max-width: 500px) {
     body {
         padding: 10px;
+    }
+
+    .ceyom {
+        display: none;
     }
 
     .divduym2 {
@@ -76,7 +133,8 @@ body {
     .chap2 h1 {
         font-size: 40px;
     }
-    .chap2button{
+
+    .chap2button {
         justify-content: center;
     }
 
@@ -92,5 +150,11 @@ body {
         width: 80%;
         height: 150px;
         margin-top: 10px;
+    }
+
+    .tel {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
     }
 }
