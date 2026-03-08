@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+}
+
+body {
+    padding: 2px 50px;
+}
+
+.dibavval {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.avvals1,
+.avvals2 {
+    width: 80px;
+    height: 20px;
+}
+
+.divduym2 {
+    display: flex;
+    padding: 50px;
+    margin-top: 30px;
+    background-color: rgba(216, 216, 216, 0.653);
+}
+
+.chap2 h1 {
+    font-size: 50px;
+}
+
+.chaps1 {
+    width: 500px;
+}
+
+.chap2button {
+    display: flex;
+    margin-top: 30px;
+}
+
+.chap2button button {
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.chap2buttons1 {
+    width: 30px;
+    margin-left: 5px;
+}
+
+.rost2 img {
+    width: 500px;
+    height: 533px;
+    position: absolute;
+    top: 1px;
+    right: 100px;
+}
+
+
+
+@media(max-width: 500px) {
+    body {
+        padding: 10px;
+    }
+
+    .divduym2 {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        height: 830px;
+    }
+
+    .chap2 h1 {
+        font-size: 40px;
+    }
+    .chap2button{
+        justify-content: center;
+    }
+
+    .rost2 img {
+        width: 100%;
+        height: 433px;
+        position: absolute;
+        top: 500px;
+        right: 0px;
+    }
+
+    .chaps1 {
+        width: 80%;
+        height: 150px;
+        margin-top: 10px;
+    }
+}
