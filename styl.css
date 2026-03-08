@@ -67,51 +67,65 @@ body {
 .tel {
     display: none;
 }
-.ha1{
+
+.ha1 {
     margin-top: 30px;
 }
-.ce3{
+
+.ce3 {
     margin-top: 30px;
     display: flex;
     gap: 30px;
 }
-.ce31{
+
+.ce31 {
     padding: 15px;
     border-radius: 10px;
-     border: 1px solid wheat;
+    border: 1px solid wheat;
 }
-.ce31 p,.ce31 h3{
+
+.ce31 p,
+.ce31 h3 {
     margin: 10px 0px;
 }
-.ce31button button
-{
+
+.ce31button button {
     padding: 10px;
     border-radius: 10px;
     border: 1px solid wheat;
 }
-.b1{
+
+.b1 {
     background-color: bisque;
 }
-.b2{
+
+.b2 {
     background-color: rgba(255, 228, 196, 0);
 }
-.cep2{
+
+.cep2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.cep1{
+
+.cep1 {
     padding: 15px;
     width: 21%;
     margin-top: 5px;
     border-radius: 10px;
     border: 1px solid wheat;
-    
+
 }
-.cep{
+
+.cep {
     display: flex;
     gap: 30px;
     justify-content: space-between;
+}
+
+hr {
+    margin: 5px;
 }
 
 @media(max-width: 500px) {
@@ -157,4 +171,30 @@ body {
         width: 100%;
         margin-top: 20px;
     }
+
+    .cep,
+    .ce3 {
+        display: block;
+        margin: 10px;
+    }
+
+    .ha1 {
+        text-align: center;
+    }
+
+    .ce31 {
+        margin: 10px 0px;
+    }
+
+    .cep1 {
+        width: 90%;
+        margin: 10px 0px;
+    }
+
+    .b1 {
+        width: 55%;
+        margin-right: 20px;
+    }
+
+
 }
