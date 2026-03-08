@@ -127,6 +127,38 @@ body {
 hr {
     margin: 5px;
 }
+.panj5{
+    gap: 10px;
+    margin-top: 30px;
+}
+.panj51{
+    width: 24%;
+}
+.panj5,.panj52{
+    display: flex;
+    align-items: center;
+}
+.panj52 img{
+    margin: 10px 0px;
+}
+
+.panj52 h3{
+    font-size: 15px;
+}
+.panj51{
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgb(211, 211, 211);
+}
+.b3{
+    padding: 5px 60px;
+    border-radius: 10px;
+    border: 1px solid wheat;
+    background-color: rgba(255, 228, 196, 0);
+}
+.pa1{
+    margin-left: 80px;
+}
 
 @media(max-width: 500px) {
     body {
@@ -195,6 +227,25 @@ hr {
         width: 55%;
         margin-right: 20px;
     }
+    .panj5{
+        display: block;
+    }
+    .panj51{
 
+        width: 90%;
 
+    }
+    .pa1{
+        margin-left: 45%;
+    }
+    .panj52 img{
+        margin: 20px 0px;
+        margin-right: 10px;
+    }
+    .b3{
+        width: 80%;
+   margin-left: 10%;
+    }
+    
+    
 }
