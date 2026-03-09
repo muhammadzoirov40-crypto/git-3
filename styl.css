@@ -127,39 +127,87 @@ body {
 hr {
     margin: 5px;
 }
-.panj5{
+
+.panj5 {
     gap: 10px;
     margin-top: 30px;
 }
-.panj51{
+
+.panj51 {
     width: 24%;
 }
-.panj5,.panj52{
+
+.panj5,
+.panj52 {
     display: flex;
     align-items: center;
 }
-.panj52 img{
+
+.panj52 img {
     margin: 10px 0px;
 }
 
-.panj52 h3{
+.panj52 h3 {
     font-size: 15px;
 }
-.panj51{
+
+.panj51 {
     align-items: center;
     padding: 10px;
     border: 1px solid rgb(211, 211, 211);
 }
-.b3{
+
+.b3 {
     padding: 5px 60px;
+    margin-left: 30px;
     border-radius: 10px;
     border: 1px solid wheat;
     background-color: rgba(255, 228, 196, 0);
 }
-.pa1{
-    margin-left: 80px;
+
+.panj52 img {
+    margin-right: 10px;
 }
 
+.pa1 {
+    margin-left: 70px;
+}
+
+.sha6 {
+    background-color: rgb(216, 216, 216);
+}
+
+.sha61 {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sha61 input {
+    padding: 10px;
+    width: 250px;
+    outline: none;
+}
+
+.sha61 img {
+    padding: 30px;
+    width: 80px;
+}
+
+.sha61du {
+    display: flex;
+}
+.haft7,.haft71,.haft71 p{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    /* justify-content: space-between; */
+}
+.hq1{
+    width: 75px;
+}
 @media(max-width: 500px) {
     body {
         padding: 10px;
@@ -227,25 +275,71 @@ hr {
         width: 55%;
         margin-right: 20px;
     }
-    .panj5{
+
+    .panj5 {
         display: block;
     }
-    .panj51{
+
+    .panj51 {
 
         width: 90%;
 
     }
-    .pa1{
-        margin-left: 45%;
+
+    .pa1 {
+        margin-left: 43%;
     }
-    .panj52 img{
+
+    .panj52 img {
         margin: 20px 0px;
         margin-right: 10px;
     }
-    .b3{
+
+    .b3 {
         width: 80%;
-   margin-left: 10%;
+        margin-left: 10%;
     }
-    
-    
+
+    .sha61 {
+        display: block;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        margin-top: 20px;
+
+    }
+
+    .sha61 h2 {
+        font-size: 30px;
+    }
+
+    .sha61 input {
+        width: 90%;
+        margin: 10px 0px;
+    }
+    .sha6{
+        background-color:white ;
+    }
+
+    .sha61du img {
+        padding: 0;
+        width: 40%;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    .sha61du {
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .haft7{
+        display: block;
+    }
+    .hq1{
+        width: 100%;
+    }
+
+
+
+
 }
