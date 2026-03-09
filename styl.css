@@ -199,14 +199,50 @@ hr {
 .sha61du {
     display: flex;
 }
-.haft7,.haft71,.haft71 p{
+
+.haft7,
+.haft71,
+.haft71 p {
     display: flex;
     align-items: center;
     margin: 10px;
     /* justify-content: space-between; */
 }
-.hq1{
+
+.hq1 {
     width: 75px;
+}
+
+.hasht8 {
+    display: flex;
+    background-color: rgb(22, 38, 54);
+    color: white;
+    padding: 30px;
+}
+
+.chap h1 {
+    font-size: 50px
+}
+
+.chap p {
+    margin: 10px 0px;
+}
+
+.chapsa1 {
+    width: 200px;
+    margin-left: 40px;
+
+}
+
+.chapsa2 {
+
+    position: absolute;
+    left: 670px;
+    width: 300px;
+
+}
+.oxir{
+    display: none   ;
 }
 @media(max-width: 500px) {
     body {
@@ -317,8 +353,9 @@ hr {
         width: 90%;
         margin: 10px 0px;
     }
-    .sha6{
-        background-color:white ;
+
+    .sha6 {
+        background-color: white;
     }
 
     .sha61du img {
@@ -332,11 +369,36 @@ hr {
         margin-top: 20px;
         justify-content: center;
     }
-    .haft7{
+
+    .haft7 {
         display: block;
     }
-    .hq1{
+
+    .hq1 {
         width: 100%;
+    }
+
+    .hasht8 {
+        display: block;
+    }
+
+    .rosst {
+        display: flex;
+    }
+
+    .chapsa1 {
+
+        margin: 0;
+        width: 150px;
+    }
+
+    .chapsa2 {
+        width: 170px;
+        left: 50%;
+    }
+    .oxir{
+        display: block;
+        margin: 20px 10px;
     }
 
 
